@@ -1,0 +1,13 @@
+Sun May 31 12:49:00 2020 [18985][-none-][FATAL] Could not connect to DB server localhost as phpmyadmin. port : Access denied for user 'phpmyadmin'@'localhost' (using password: YES)
+Sun May 31 12:58:17 2020 [20330][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Sun May 31 12:58:17 2020 [20330][-none-][FATAL] Email address save error
+Tue Jun  2 09:45:25 2020 [26869][-none-][FATAL] SECURITY: User authentication for ajay failed
+Tue Jun  2 09:45:25 2020 [26869][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[ajay]
+Tue Jun  2 09:45:35 2020 [31494][-none-][FATAL] SECURITY: User authentication for ajay failed
+Tue Jun  2 09:45:35 2020 [31494][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[ajay]
+Tue Jun  2 09:45:47 2020 [31490][-none-][FATAL] SECURITY: User authentication for ajay failed
+Tue Jun  2 09:45:47 2020 [31490][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[ajay]
+Tue Jun  2 09:46:15 2020 [31493][-none-][FATAL] SECURITY: User authentication for ajay failed
+Tue Jun  2 09:46:15 2020 [31493][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[ajay]
+Tue Jun  2 09:46:49 2020 [31490][-none-][FATAL] SECURITY: User authentication for ajay failed
+Tue Jun  2 09:46:49 2020 [31490][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[ajay]
