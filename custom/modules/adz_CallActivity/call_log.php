@@ -1,5 +1,7 @@
 <?php
 
+/*Validate the fetching records with Auth Key*/
+
 if($_SERVER['HTTP_AUTH_KEY']=='advanz101'){
   $logdata=array();
   $logdatadetails=array();
@@ -19,6 +21,17 @@ if($_SERVER['HTTP_AUTH_KEY']=='advanz101'){
 
     $logdata[$CallListData['parent_type']][]=$logdatadetails;
   }
+
+  $CallContact=$GLOBALS['db']->QUERY("SELECT count(`call_id`) AS CallCount,`contact_id` FROM `calls_contacts` WHERE deleted=0 GROUP BY `contact_id`");
+  while($CallContactlist=$GLOBALS['db']->fetchByAssoc($CallContact)){
+
+    $logdatadetails['CallCount']=$CallContactlist['CallCount'];
+    $ContactList=BeanFactory::getBean('Contacts',$CallContactlist['contact_id']);
+    $logdatadetails['name']=$ContactList->first_name.' '.$ContactList->last_name;
+
+    $logdata['Contacts'][]=$logdatadetails;
+  }
+
   echo json_encode($logdata);
 }else{
   echo "Invalid Authkey";

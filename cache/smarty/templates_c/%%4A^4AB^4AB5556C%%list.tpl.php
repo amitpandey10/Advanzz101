@@ -1,16 +1,8 @@
-<?php /* Smarty version 2.6.31, created on 2020-06-02 10:13:21
+<?php /* Smarty version 2.6.31, created on 2020-06-02 11:40:42
          compiled from custom/modules/adz_CallActivity/tpls/list.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'print_r', 'custom/modules/adz_CallActivity/tpls/list.tpl', 6, false),array('modifier', 'round', 'custom/modules/adz_CallActivity/tpls/list.tpl', 21, false),)), $this); ?>
-<!--Suitecrm Code  tpl View Exam result Module .
-Date-10-Jan-2018
-Engenia Technologie
-Dev-by=> Manish kumar.
--->
-<!-- <?php echo print_r($this->_tpl_vars['count_arr']); ?>
- -->
-<!--<link href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css" type="text/css" />
-<link href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css" type="text/css" />-->
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'round', 'custom/modules/adz_CallActivity/tpls/list.tpl', 14, false),)), $this); ?>
+<!--SuiteCRM Smary tpl-->
 
 <link href="custom/modules/adz_CallActivity/css/custom-layout.css" rel="stylesheet" type="text/css"/>
 
@@ -90,7 +82,6 @@ Dev-by=> Manish kumar.
 </div>
 </section>
 
-<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>

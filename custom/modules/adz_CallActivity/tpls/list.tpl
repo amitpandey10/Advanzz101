@@ -1,11 +1,4 @@
-<!--Suitecrm Code  tpl View Exam result Module .
-Date-10-Jan-2018
-Engenia Technologie
-Dev-by=> Manish kumar.
--->
-<!-- {$count_arr|@print_r} -->
-<!--<link href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css" type="text/css" />
-<link href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css" type="text/css" />-->
+<!--SuiteCRM Smary tpl-->
 
 <link href="custom/modules/adz_CallActivity/css/custom-layout.css" rel="stylesheet" type="text/css"/>
 
@@ -73,7 +66,6 @@ Dev-by=> Manish kumar.
 </div>
 </section>
 
-<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
